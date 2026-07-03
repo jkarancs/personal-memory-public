@@ -1,0 +1,8 @@
+# hub.toml — this repo is a read-only export target for `hub export`.
+[hub]
+name = "personal-public"
+content_root = "./memory"
+profile = "personal"
+
+[write]
+allow_agent_writes = false
