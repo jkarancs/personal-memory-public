@@ -4,7 +4,7 @@
 the `visibility: public`, `status: active` subset of a private MemoryHub store and is
 itself a valid read-only hub store. Manual edits are overwritten on the next export.
 
-80 memories.
+81 memories.
 
 ## bio (2)
 
@@ -94,7 +94,7 @@ itself a valid read-only hub store. Manual edits are overwritten on the next exp
 - [Remote-first working style](memory/preference/preference-remote-first.md) — Highly productive working independently from a home office.
 - [Spec-driven, high quality standards](memory/preference/preference-spec-driven-quality.md) — Writes detailed specs and holds high standards even when AI generates the code.
 
-## writing (10)
+## writing (11)
 
 - [CMS Collaboration publications (1,000+)](memory/writing/writing-cms-publications.md) — Co-author on 1,000+ peer-reviewed CMS publications; personal contributions in SUSY and Pixel work.
 - [COVID-19 super-spreaders - a data-driven analysis (2020)](memory/writing/writing-covid-superspreader-analysis.md) — Public analysis arguing super-spreader events break SEIR models; a physicist's data-driven take.
@@ -106,3 +106,4 @@ itself a valid read-only hub store. Manual edits are overwritten on the next exp
 - [CMS tracker track/vertex reconstruction performance (JINST 2014)](memory/writing/writing-paper-tracker-performance.md) — Description and performance of track and primary-vertex reconstruction with the CMS tracker; contributed pixel hit-efficiency measurements.
 - [PhD thesis - beyond the Standard Model with CMS](memory/writing/writing-phd-thesis.md) — Doctoral thesis (CERN-THESIS-2019-080) on BSM/SUSY searches with the CMS detector.
 - [LinkedIn post - AI should navigate knowledge, not rediscover it](memory/writing/writing-post-ai-knowledge-base.md) — Published post on the agentic knowledge-base approach and context discipline.
+- [What Legacy Code Taught Me About Learning AI From Scratch](memory/writing/writing-what-legacy-code-taught-me-about-learning-ai-from-scratch.md) — LinkedIn post on what CERN legacy code taught me about durability, and building a transformer from scratch to learn AI fundamentals.
