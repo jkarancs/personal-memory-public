@@ -23,3 +23,9 @@ cd ../personal-memory-public && git diff
 The export is deterministic: running it twice produces zero diff. It refuses to run while
 `hub validate` fails in the source repo, and prompts on email/phone/API-key-shaped content
 (`--yes` to accept the warnings non-interactively).
+
+## Committing
+
+- Commit on the user's behalf: one-line summary only (conventional prefix), never a multi-line body.
+- When fixing something just committed, amend the previous commit rather than stacking fixups.
+- Default branch is `main`.
