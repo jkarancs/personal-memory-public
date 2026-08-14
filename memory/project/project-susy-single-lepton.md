@@ -7,7 +7,7 @@ tags: [physics, particle-physics, cern, statistics, cpp]
 status: active
 visibility: public
 created: 2026-07-02
-updated: 2026-07-05
+updated: 2026-07-29
 stack: [C++, ROOT, WLCG]
 url: https://github.com/jkarancs/RA4Efficiencies
 role: Contributor - lepton efficiency measurements

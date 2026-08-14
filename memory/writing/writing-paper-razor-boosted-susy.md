@@ -7,7 +7,7 @@ tags: [publication, physics, particle-physics, cern, writing]
 status: active
 visibility: public
 created: 2026-07-03
-updated: 2026-07-03
+updated: 2026-07-29
 related: [project-susy-razor, writing-phd-thesis]
 source: agent
 ---

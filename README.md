@@ -81,14 +81,14 @@ itself a valid read-only hub store. Manual edits are overwritten on the next exp
 - [MemoryHub](memory/project/project-memoryhub.md) — Content-agnostic engine over a markdown memory store with schema-validated writes and an MCP server.
 - [Razor-boost SUSY search (PhD thesis, world's best limits in Run 2 for a period of time)](memory/project/project-susy-razor.md) — Boosted-object Supersymmetry search on 2016 LHC data using razor variables - the analysis behind my PhD thesis, coded, plotted, and statistically analysed in the BoostAnalyzer17 framework.
 - [Single-lepton SUSY search (world-best limits in LHC Run 1)](memory/project/project-susy-single-lepton.md) — Single-lepton Supersymmetry search on 2012 LHC data that set world-best exclusion limits at publication; my personal contribution was measuring the lepton efficiencies.
-- [VideoLearningTool - video knowledge triage](memory/project/project-videolearningtool.md) — Desktop app that downloads, transcribes, and LLM-summarises videos for rapid watch/skip decisions.
+- [VidSavant - local-first video knowledge workspace](memory/project/project-videolearningtool.md) — Personal local-first desktop app that turns video URLs into searchable, summarizable, chat-enabled knowledge items.
 - [WeightLifting - transformer from scratch](memory/project/project-weightlifting.md) — Decoder-only char-level transformer (~10.8M params) built and trained from scratch in PyTorch.
 
 ## preference (7)
 
 - [Independent, async collaboration](memory/preference/preference-async-independent-work.md) — Self-directed deep work; coordinates asynchronously across time zones.
 - [Learns by re-implementing fundamentals](memory/preference/preference-learning-by-implementation.md) — Absorbs new domains by building fundamentals from scratch.
-- [Learning cadence and hardware constraints](memory/preference/preference-learning-cadence.md) — ~1-2 hr/day, ~5 sessions/week; historically constrained by a 6GB GPU.
+- [Learning cadence and hardware constraints](memory/preference/preference-learning-cadence.md) — ~2 hr/day on ~6 of 7 days, ~4 hr weekends/holidays; roadmap moving faster than expected. Historically GPU-constrained (6GB).
 - [Prefers math-forward learning resources](memory/preference/preference-math-forward-learning.md) — Skips slow intros; prefers first-principles, math-forward material.
 - [Notebook-first, summary-first learning style](memory/preference/preference-notebook-learning-style.md) — Skim/summary-first triage, hands-on notebooks, build-it-yourself checkpoints.
 - [Remote-first working style](memory/preference/preference-remote-first.md) — Highly productive working independently from a home office.

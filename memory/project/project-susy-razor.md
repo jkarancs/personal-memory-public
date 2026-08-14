@@ -7,7 +7,7 @@ tags: [physics, particle-physics, cern, statistics]
 status: active
 visibility: public
 created: 2026-07-02
-updated: 2026-07-05
+updated: 2026-07-29
 stack: [C++, Python, ROOT, WLCG]
 url: https://github.com/jkarancs/BoostAnalyzer17
 role: Main author of the analysis software for the Razor Boost analysis

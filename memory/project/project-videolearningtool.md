@@ -1,24 +1,18 @@
 ---
 id: project-videolearningtool
-title: VideoLearningTool - video knowledge triage
+title: VidSavant - local-first video knowledge workspace
 type: project
-description: Desktop app that downloads, transcribes, and LLM-summarises videos for rapid watch/skip decisions.
-tags: [llm, ai-engineering, python, csharp]
+description: Personal local-first desktop app that turns video URLs into searchable, summarizable, chat-enabled knowledge items.
+tags: [llm, ai-engineering, python, backend, testing]
 status: active
 visibility: public
 created: 2026-07-02
-updated: 2026-07-03
-stack: [Electron, JavaScript, Python, yt-dlp, C#, .NET 9, SQLite, OpenRouter]
+updated: 2026-07-21
+stack: [Python, NiceGUI, SQLite, yt-dlp, OpenRouter, FTS5, FastEmbed]
 url: ''
 role: Sole author
 related: [skill-llm-api-integration, skill-python, skill-csharp-dotnet]
 source: agent
 ---
 
-A personal video-knowledge-triage app in three stacks: an Electron UI (clipboard monitoring for
-video links, download/delete, embedded playback), a Python pipeline (yt-dlp download, webvtt ->
-transcript, LLM summarisation via OpenRouter with a structured summary/takeaways/actions/timestamps
-prompt), and a .NET 9 ASP.NET Core Web API (controller + repository, EF, SQLite, Swagger) for link
-storage. Working prototype with documented Electron IPC bugs; paused since 2026-06-06. Designed to
-consume Phase 6 gap-analysis output (goal memories with blocking_skills) to tailor learning
-material.
+VidSavant is the successor to the earlier VideoLearningTool prototype: a local-first desktop app that turns a video URL into a searchable, transcript-grounded knowledge item with template summaries, timestamp-cited chat, optional downloads, and durable background jobs. By 2026-07-21, the implementation had completed Phase 32 of the upgrade roadmap: scoped chat now supports immutable video/tag/selection/library snapshots, bounded cross-video FTS evidence, validated [V<id> MM:SS] citations with workspace deep links, degraded-member handling, explicit preflight/consent, restart-safe sessions, and snapshot-aware Markdown export. Phase 32 verification passed 805 tests (53 deselected), 51 Chromium browser tests, and ruff. The project remains personal and local-first; no live provider run was made for this phase.

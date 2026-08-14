@@ -7,7 +7,7 @@ tags: [physics, particle-physics, cern, learning]
 status: active
 visibility: public
 created: 2026-07-02
-updated: 2026-07-02
+updated: 2026-07-29
 institution: University of Debrecen
 degree: PhD, Physics
 field: Experimental particle physics

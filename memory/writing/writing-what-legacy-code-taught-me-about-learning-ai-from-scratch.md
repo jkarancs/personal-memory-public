@@ -6,8 +6,8 @@ description: LinkedIn post on what CERN legacy code taught me about durability, 
 tags: [writing, ai-engineering, machine-learning, pytorch, cern, learning]
 status: active
 visibility: public
-created: &id001 2026-07-05
-updated: *id001
+created: 2026-07-05
+updated: 2026-07-05
 related: [project-weightlifting, skill-pytorch, skill-transformers, project-cms-pixel-detector]
 source: agent
 ---

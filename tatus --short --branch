@@ -1,0 +1,283 @@
+[1mdiff --git a/README.md b/README.md[m
+[1mindex 155515e..038adb3 100644[m
+[1m--- a/README.md[m
+[1m+++ b/README.md[m
+[36m@@ -81,14 +81,14 @@[m [mitself a valid read-only hub store. Manual edits are overwritten on the next exp[m
+ - [MemoryHub](memory/project/project-memoryhub.md) — Content-agnostic engine over a markdown memory store with schema-validated writes and an MCP server.[m
+ - [Razor-boost SUSY search (PhD thesis, world's best limits in Run 2 for a period of time)](memory/project/project-susy-razor.md) — Boosted-object Supersymmetry search on 2016 LHC data using razor variables - the analysis behind my PhD thesis, coded, plotted, and statistically analysed in the BoostAnalyzer17 framework.[m
+ - [Single-lepton SUSY search (world-best limits in LHC Run 1)](memory/project/project-susy-single-lepton.md) — Single-lepton Supersymmetry search on 2012 LHC data that set world-best exclusion limits at publication; my personal contribution was measuring the lepton efficiencies.[m
+[31m-- [VideoLearningTool - video knowledge triage](memory/project/project-videolearningtool.md) — Desktop app that downloads, transcribes, and LLM-summarises videos for rapid watch/skip decisions.[m
+[32m+[m[32m- [VidSavant - local-first video knowledge workspace](memory/project/project-videolearningtool.md) — Personal local-first desktop app that turns video URLs into searchable, summarizable, chat-enabled knowledge items.[m
+ - [WeightLifting - transformer from scratch](memory/project/project-weightlifting.md) — Decoder-only char-level transformer (~10.8M params) built and trained from scratch in PyTorch.[m
+ [m
+ ## preference (7)[m
+ [m
+ - [Independent, async collaboration](memory/preference/preference-async-independent-work.md) — Self-directed deep work; coordinates asynchronously across time zones.[m
+ - [Learns by re-implementing fundamentals](memory/preference/preference-learning-by-implementation.md) — Absorbs new domains by building fundamentals from scratch.[m
+[31m-- [Learning cadence and hardware constraints](memory/preference/preference-learning-cadence.md) — ~1-2 hr/day, ~5 sessions/week; historically constrained by a 6GB GPU.[m
+[32m+[m[32m- [Learning cadence and hardware constraints](memory/preference/preference-learning-cadence.md) — ~2 hr/day on ~6 of 7 days, ~4 hr weekends/holidays; roadmap moving faster than expected. Historically GPU-constrained (6GB).[m
+ - [Prefers math-forward learning resources](memory/preference/preference-math-forward-learning.md) — Skips slow intros; prefers first-principles, math-forward material.[m
+ - [Notebook-first, summary-first learning style](memory/preference/preference-notebook-learning-style.md) — Skim/summary-first triage, hands-on notebooks, build-it-yourself checkpoints.[m
+ - [Remote-first working style](memory/preference/preference-remote-first.md) — Highly productive working independently from a home office.[m
+[1mdiff --git a/memory/education/education-debrecen-phd.md b/memory/education/education-debrecen-phd.md[m
+[1mindex f51db42..44e6730 100644[m
+[1m--- a/memory/education/education-debrecen-phd.md[m
+[1m+++ b/memory/education/education-debrecen-phd.md[m
+[36m@@ -7,7 +7,7 @@[m [mtags: [physics, particle-physics, cern, learning][m
+ status: active[m
+ visibility: public[m
+ created: 2026-07-02[m
+[31m-updated: 2026-07-02[m
+[32m+[m[32mupdated: 2026-07-29[m
+ institution: University of Debrecen[m
+ degree: PhD, Physics[m
+ field: Experimental particle physics[m
+[1mdiff --git a/memory/preference/preference-learning-by-implementation.md b/memory/preference/preference-learning-by-implementation.md[m
+[1mindex 6691fc6..1728ac3 100644[m
+[1m--- a/memory/preference/preference-learning-by-implementation.md[m
+[1m+++ b/memory/preference/preference-learning-by-implementation.md[m
+[36m@@ -7,7 +7,7 @@[m [mtags: [learning][m
+ status: active[m
+ visibility: public[m
+ created: 2026-07-02[m
+[31m-updated: 2026-07-03[m
+[32m+[m[32mupdated: 2026-07-29[m
+ related: [project-weightlifting, project-datascienceproject, skill-self-directed-learning][m
+ source: agent[m
+ ---[m
+[1mdiff --git a/memory/preference/preference-learning-cadence.md b/memory/preference/preference-learning-cadence.md[m
+[1mindex 57e6e2c..5bd3bf2 100644[m
+[1m--- a/memory/preference/preference-learning-cadence.md[m
+[1m+++ b/memory/preference/preference-learning-cadence.md[m
+[36m@@ -2,14 +2,18 @@[m
+ id: preference-learning-cadence[m
+ title: Learning cadence and hardware constraints[m
+ type: preference[m
+[31m-description: ~1-2 hr/day, ~5 sessions/week; historically constrained by a 6GB GPU.[m
+[32m+[m[32mdescription: ~2 hr/day on ~6 of 7 days, ~4 hr weekends/holidays; roadmap moving faster than expected. Historically GPU-constrained (6GB).[m
+ tags: [learning][m
+ status: active[m
+ visibility: public[m
+ created: 2026-07-02[m
+[31m-updated: 2026-07-03[m
+[32m+[m[32mupdated: 2026-07-14[m
+ related: []  # 1 link(s) to non-exported memories removed by `hub export`[m
+ source: agent[m
+ ---[m
+ [m
+[31m-Sustainable study cadence: 1-2 hours/day on 2-4 days/week (sometimes more at weekends), mostly evenings, fitted around a full-time job and family. Takes notes and builds learning notebooks with AI. Local hardware is a 6GB GTX 1660 Ti (Turing, no BF16/Tensor Cores) - hence small models, 4-bit QLoRA, batch size 1, FP16, and renting a GPU by the hour for larger runs.[m
+[32m+[m[32m**Updated 2026-07-14:** availability has grown. Now roughly **2 hours per day on most days (~6 of 7)**, and around **4 hours on weekends/holidays**. As a result the AI roadmap has been progressing at a much faster pace than originally expected.[m
+[32m+[m
+[32m+[m[32mEarlier baseline (2026-07-02): 1-2 hours/day on 2-4 days/week, sometimes more at weekends, mostly evenings, fitted around a full-time job and family.[m
+[32m+[m
+[32m+[m[32mTakes notes and builds learning notebooks with AI. Local hardware is a 6GB GTX 1660 Ti (Turing, no BF16/Tensor Cores) - hence small models, 4-bit QLoRA, batch size 1, FP16, and renting a GPU by the hour for larger runs.[m
+[1mdiff --git a/memory/project/project-memoryhub.md b/memory/project/project-memoryhub.md[m
+[1mindex c1aef05..89236e5 100644[m
+[1m--- a/memory/project/project-memoryhub.md[m
+[1m+++ b/memory/project/project-memoryhub.md[m
+[36m@@ -7,7 +7,7 @@[m [mtags: [python, tooling, knowledge-base, mcp, ai-engineering][m
+ status: active[m
+ visibility: public[m
+ created: 2026-07-02[m
+[31m-updated: 2026-07-03[m
+[32m+[m[32mupdated: 2026-08-10[m
+ stack: [Python, Pydantic, Typer, FastMCP, LanceDB, pytest][m
+ url: https://github.com/jkarancs/MemoryHub[m
+ role: Author (spec-driven, built with AI agents)[m
+[36m@@ -16,8 +16,14 @@[m [msource: agent[m
+ ---[m
+ [m
+ A reusable Python engine over a markdown memory store with YAML frontmatter: schema profiles,[m
+[31m-Pydantic-validated guarded atomic writes, full-text query, a Typer CLI, and a FastMCP stdio server[m
+[31m-for agent access. Content lives in separate repos (private + public export). Phases 0-2 are[m
+[31m-implemented (engine core + MCP server); embeddings/LanceDB hybrid search and public export are[m
+[31m-planned. Notably, the engine itself was built by AI agents from written multi-phase specs - a[m
+[31m-concrete demonstration of the spec-driven agentic methodology.[m
+[32m+[m[32mPydantic-validated guarded atomic writes, hybrid semantic search (BAAI/bge-m3 embeddings +[m
+[32m+[m[32mLanceDB + full-text fallback), a Typer CLI, and a FastMCP server for agent access. Content[m
+[32m+[m[32mlives in separate repos (private + public export). Notably, the engine itself was built by AI[m
+[32m+[m[32magents from written multi-phase specs - a concrete demonstration of the spec-driven agentic[m
+[32m+[m[32mmethodology.[m
+[32m+[m
+[32m+[m[32mDeployment (since 2026-07-18): the MCP server runs as a persistent background HTTP daemon[m
+[32m+[m[32m(streamable HTTP on a loopback port) rather than a per-session stdio process. A launcher script[m
+[32m+[m[32mstarts it once, singleton-guarded (port bind + pid file), and keeps the embedding model warm in[m
+[32m+[m[32mone shared process - agent sessions attach to the running daemon instead of each paying a ~45s[m
+[32m+[m[32mmodel load and ~1.4 GB of RAM.[m
+[1mdiff --git a/memory/project/project-susy-razor.md b/memory/project/project-susy-razor.md[m
+[1mindex 860d7b0..4be18b6 100644[m
+[1m--- a/memory/project/project-susy-razor.md[m
+[1m+++ b/memory/project/project-susy-razor.md[m
+[36m@@ -7,7 +7,7 @@[m [mtags: [physics, particle-physics, cern, statistics][m
+ status: active[m
+ visibility: public[m
+ created: 2026-07-02[m
+[31m-updated: 2026-07-05[m
+[32m+[m[32mupdated: 2026-07-29[m
+ stack: [C++, Python, ROOT, WLCG][m
+ url: https://github.com/jkarancs/BoostAnalyzer17[m
+ role: Main author of the analysis software for the Razor Boost analysis[m
+[1mdiff --git a/memory/project/project-susy-single-lepton.md b/memory/project/project-susy-single-lepton.md[m
+[1mindex cca7a58..5c63c92 100644[m
+[1m--- a/memory/project/project-susy-single-lepton.md[m
+[1m+++ b/memory/project/project-susy-single-lepton.md[m
+[36m@@ -7,7 +7,7 @@[m [mtags: [physics, particle-physics, cern, statistics, cpp][m
+ status: active[m
+ visibility: public[m
+ created: 2026-07-02[m
+[31m-updated: 2026-07-05[m
+[32m+[m[32mupdated: 2026-07-29[m
+ stack: [C++, ROOT, WLCG][m
+ url: https://github.com/jkarancs/RA4Efficiencies[m
+ role: Contributor - lepton efficiency measurements[m
+[1mdiff --git a/memory/project/project-videolearningtool.md b/memory/project/project-videolearningtool.md[m
+[1mindex f5450cb..b8c1c67 100644[m
+[1m--- a/memory/project/project-videolearningtool.md[m
+[1m+++ b/memory/project/project-videolearningtool.md[m
+[36m@@ -1,24 +1,18 @@[m
+ ---[m
+ id: project-videolearningtool[m
+[31m-title: VideoLearningTool - video knowledge triage[m
+[32m+[m[32mtitle: VidSavant - local-first video knowledge workspace[m
+ type: project[m
+[31m-description: Desktop app that downloads, transcribes, and LLM-summarises videos for rapid watch/skip decisions.[m
+[31m-tags: [llm, ai-engineering, python, csharp][m
+[32m+[m[32mdescription: Personal local-first desktop app that turns video URLs into searchable, summarizable, chat-enabled knowledge items.[m
+[32m+[m[32mtags: [llm, ai-engineering, python, backend, testing][m
+ status: active[m
+ visibility: public[m
+ created: 2026-07-02[m
+[31m-updated: 2026-07-03[m
+[31m-stack: [Electron, JavaScript, Python, yt-dlp, C#, .NET 9, SQLite, OpenRouter][m
+[32m+[m[32mupdated: 2026-07-21[m
+[32m+[m[32mstack: [Python, NiceGUI, SQLite, yt-dlp, OpenRouter, FTS5, FastEmbed][m
+ url: ''[m
+ role: Sole author[m
+ related: [skill-llm-api-integration, skill-python, skill-csharp-dotnet][m
+ source: agent[m
+ ---[m
+ [m
+[31m-A personal video-knowledge-triage app in three stacks: an Electron UI (clipboard monitoring for[m
+[31m-video links, download/delete, embedded playback), a Python pipeline (yt-dlp download, webvtt ->[m
+[31m-transcript, LLM summarisation via OpenRouter with a structured summary/takeaways/actions/timestamps[m
+[31m-prompt), and a .NET 9 ASP.NET Core Web API (controller + repository, EF, SQLite, Swagger) for link[m
+[31m-storage. Working prototype with documented Electron IPC bugs; paused since 2026-06-06. Designed to[m
+[31m-consume Phase 6 gap-analysis output (goal memories with blocking_skills) to tailor learning[m
+[31m-material.[m
+[32m+[m[32mVidSavant is the successor to the earlier VideoLearningTool prototype: a local-first desktop app that turns a video URL into a searchable, transcript-grounded knowledge item with template summaries, timestamp-cited chat, optional downloads, and durable background jobs. By 2026-07-21, the implementation had completed Phase 32 of the upgrade roadmap: scoped chat now supports immutable video/tag/selection/library snapshots, bounded cross-video FTS evidence, validated [V<id> MM:SS] citations with workspace deep links, degraded-member handling, explicit preflight/consent, restart-safe sessions, and snapshot-aware Markdown export. Phase 32 verification passed 805 tests (53 deselected), 51 Chromium browser tests, and ruff. The project remains personal and local-first; no live provider run was made for this phase.[m
+[1mdiff --git a/memory/skill/skill-docker.md b/memory/skill/skill-docker.md[m
+[1mindex fd2f0d8..bd63f89 100644[m
+[1m--- a/memory/skill/skill-docker.md[m
+[1m+++ b/memory/skill/skill-docker.md[m
+[36m@@ -7,10 +7,12 @@[m [mtags: [docker, devops][m
+ status: active[m
+ visibility: public[m
+ created: 2026-07-02[m
+[31m-updated: 2026-07-03[m
+[32m+[m[32mupdated: 2026-08-10[m
+ proficiency: advanced[m
+ related: [skill-kubernetes][m
+ source: agent[m
+ ---[m
+ [m
+ Containerize backend services for Kubernetes/EKS deployment; comfortable with image build, layering, and runtime concerns.[m
+[32m+[m
+[32m+[m[32m**Docker Compose operational debugging** (AgentBosun P6): resolved a healthy-stack bring-up by diagnosing (1) hostname-vs-loopback healthchecks — probe `$(hostname)` rather than localhost; (2) wolfi/minimal images that ship without `wget`/`curl`, requiring a Python `urllib` probe instead; and (3) secrets baked into named volumes at first init — after changing `.env` you must `poe reset` (tear down volumes) or the old secrets persist.[m
+[1mdiff --git a/memory/skill/skill-fine-tuning.md b/memory/skill/skill-fine-tuning.md[m
+[1mindex 1799333..67e7a93 100644[m
+[1m--- a/memory/skill/skill-fine-tuning.md[m
+[1m+++ b/memory/skill/skill-fine-tuning.md[m
+[36m@@ -7,10 +7,12 @@[m [mtags: [fine-tuning, llm, machine-learning][m
+ status: active[m
+ visibility: public[m
+ created: 2026-07-02[m
+[31m-updated: 2026-07-03[m
+[32m+[m[32mupdated: 2026-07-15[m
+ proficiency: beginner[m
+ related: []  # 1 link(s) to non-exported memories removed by `hub export`[m
+ source: agent[m
+ ---[m
+ [m
+ Learning parameter-efficient fine-tuning (LoRA/QLoRA, PEFT, bitsandbytes 4-bit) on the current learning roadmap: local runs on a 6GB card, then a portfolio-grade 7-8B fine-tune on a rented GPU published to the HF Hub. In progress, not yet a shipped artifact.[m
+[32m+[m
+[32m+[m[32mEvidence (2026-07-15): implemented LoRA from scratch in WeightLifting (roadmap P5) — hand-rolled `LoRALinear` (ΔW = B·A scaled by α/r, B zero-initialized), in-place injection into an own 10.8M-param char transformer, merge/unmerge for zero-overhead inference, adapter-only checkpoints (~225 KB vs 40+ MB), and a char-level vocab bridge for cross-domain transfer; verified on the 6 GB card that switching adapters off recovers the base model's val loss exactly (catastrophic-forgetting probe). No peft/bitsandbytes used — implementation from first principles.[m
+[1mdiff --git a/memory/skill/skill-llm-inference-serving.md b/memory/skill/skill-llm-inference-serving.md[m
+[1mindex db9b705..283a754 100644[m
+[1m--- a/memory/skill/skill-llm-inference-serving.md[m
+[1m+++ b/memory/skill/skill-llm-inference-serving.md[m
+[36m@@ -7,7 +7,7 @@[m [mtags: [llm-inference, gpu, ai-engineering][m
+ status: active[m
+ visibility: public[m
+ created: 2026-07-02[m
+[31m-updated: 2026-07-03[m
+[32m+[m[32mupdated: 2026-07-29[m
+ proficiency: beginner[m
+ related: []  # 2 link(s) to non-exported memories removed by `hub export`[m
+ source: agent[m
+[1mdiff --git a/memory/skill/skill-self-directed-learning.md b/memory/skill/skill-self-directed-learning.md[m
+[1mindex 3b773f9..39dde4d 100644[m
+[1m--- a/memory/skill/skill-self-directed-learning.md[m
+[1m+++ b/memory/skill/skill-self-directed-learning.md[m
+[36m@@ -7,7 +7,7 @@[m [mtags: [learning, career][m
+ status: active[m
+ visibility: public[m
+ created: 2026-07-02[m
+[31m-updated: 2026-07-03[m
+[32m+[m[32mupdated: 2026-07-29[m
+ proficiency: expert[m
+ related: [preference-learning-by-implementation][m
+ source: agent[m
+[1mdiff --git a/memory/writing/writing-paper-razor-boosted-susy.md b/memory/writing/writing-paper-razor-boosted-susy.md[m
+[1mindex 34aab86..9bf39af 100644[m
+[1m--- a/memory/writing/writing-paper-razor-boosted-susy.md[m
+[1m+++ b/memory/writing/writing-paper-razor-boosted-susy.md[m
+[36m@@ -7,7 +7,7 @@[m [mtags: [publication, physics, particle-physics, cern, writing][m
+ status: active[m
+ visibility: public[m
+ created: 2026-07-03[m
+[31m-updated: 2026-07-03[m
+[32m+[m[32mupdated: 2026-07-29[m
+ related: [project-susy-razor, writing-phd-thesis][m
+ source: agent[m
+ ---[m
+[1mdiff --git a/memory/writing/writing-paper-single-lepton-susy.md b/memory/writing/writing-paper-single-lepton-susy.md[m
+[1mindex 3cecf0b..dd2d93a 100644[m
+[1m--- a/memory/writing/writing-paper-single-lepton-susy.md[m
+[1m+++ b/memory/writing/writing-paper-single-lepton-susy.md[m
+[36m@@ -7,7 +7,7 @@[m [mtags: [publication, physics, particle-physics, cern, writing][m
+ status: active[m
+ visibility: public[m
+ created: 2026-07-03[m
+[31m-updated: 2026-07-03[m
+[32m+[m[32mupdated: 2026-07-29[m
+ related: [project-susy-single-lepton][m
+ source: agent[m
+ ---[m
+[1mdiff --git a/memory/writing/writing-phd-thesis.md b/memory/writing/writing-phd-thesis.md[m
+[1mindex 1ccc54c..7c413e1 100644[m
+[1m--- a/memory/writing/writing-phd-thesis.md[m
+[1m+++ b/memory/writing/writing-phd-thesis.md[m
+[36m@@ -7,7 +7,7 @@[m [mtags: [publication, physics, particle-physics, cern, writing][m
+ status: active[m
+ visibility: public[m
+ created: 2026-07-02[m
+[31m-updated: 2026-07-03[m
+[32m+[m[32mupdated: 2026-07-29[m
+ related: [education-debrecen-phd, project-susy-single-lepton][m
+ source: agent[m
+ ---[m
+[1mdiff --git a/memory/writing/writing-what-legacy-code-taught-me-about-learning-ai-from-scratch.md b/memory/writing/writing-what-legacy-code-taught-me-about-learning-ai-from-scratch.md[m
+[1mindex fe57c9d..8c3ea61 100644[m
+[1m--- a/memory/writing/writing-what-legacy-code-taught-me-about-learning-ai-from-scratch.md[m
+[1m+++ b/memory/writing/writing-what-legacy-code-taught-me-about-learning-ai-from-scratch.md[m
+[36m@@ -6,8 +6,8 @@[m [mdescription: LinkedIn post on what CERN legacy code taught me about durability,[m
+ tags: [writing, ai-engineering, machine-learning, pytorch, cern, learning][m
+ status: active[m
+ visibility: public[m
+[31m-created: &id001 2026-07-05[m
+[31m-updated: *id001[m
+[32m+[m[32mcreated: 2026-07-05[m
+[32m+[m[32mupdated: 2026-07-05[m
+ related: [project-weightlifting, skill-pytorch, skill-transformers, project-cms-pixel-detector][m
+ source: agent[m
+ ---[m

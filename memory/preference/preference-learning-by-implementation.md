@@ -7,7 +7,7 @@ tags: [learning]
 status: active
 visibility: public
 created: 2026-07-02
-updated: 2026-07-03
+updated: 2026-07-29
 related: [project-weightlifting, project-datascienceproject, skill-self-directed-learning]
 source: agent
 ---
