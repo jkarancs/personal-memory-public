@@ -1,0 +1,17 @@
+schema: ai-kb/v4
+generator_version: "4.2"
+project: personal-memory-public
+profile: starter
+repo_kind: single
+work_tracking: { kind: graph, ledger: workspace-agent-docs }
+conventions:
+  branch: "main — direct commits"
+  commit: "one-line summary, no body; on the user's behalf; amend-on-fix ok; conventional prefix"
+  verification: "../personal-memory/.venv/bin/hub validate"
+workspace_knowledge: "../AGENTS.md"
+key_flows: []
+components: []
+flags:
+  nested_agents: no
+  adr_enabled: no
+  shims: { copilot: no }
