@@ -4,7 +4,7 @@
 the `visibility: public`, `status: active` subset of a private MemoryHub store and is
 itself a valid read-only hub store. Manual edits are overwritten on the next export.
 
-81 memories.
+87 memories.
 
 ## bio (2)
 
@@ -74,15 +74,19 @@ itself a valid read-only hub store. Manual edits are overwritten on the next exp
 - [PhD in Physics, University of Debrecen](memory/education/education-debrecen-phd.md) — Doctorate on beyond-Standard-Model searches with the CMS detector at CERN.
 - [BSc + MSc Physics, University of Leeds](memory/education/education-leeds-physics.md) — Integrated Bachelor's and Master's in Physics, studied entirely in English.
 
-## project (7)
+## project (11)
 
+- [AgentHelm orchestration platform](memory/project/project-agenthelm-orchestration-platform.md) — Deterministic scheduler between the workspace development graph and its terminals — windows become slots, each claiming the top actionable node and spawning its skill through Herdr; plus the Bridge console and the orc doctor unattended preflight.
+- [AgentKeel](memory/project/project-agentkeel.md) — OpenRouter chat client with tool calls, structured outputs, a model registry, per-call cost telemetry, and an eval harness for price/performance.
 - [CMS Pixel Detector offline software & calibration](memory/project/project-cms-pixel-detector.md) — Offline reconstruction and calibration software for the CMS Pixel Detector at CERN.
 - [DataScienceProject - ML fundamentals practice](memory/project/project-datascienceproject.md) — Hands-on ML-fundamentals scaffold: logistic regression from scratch, clustering, stats notebooks.
 - [MemoryHub](memory/project/project-memoryhub.md) — Content-agnostic engine over a markdown memory store with schema-validated writes and an MCP server.
 - [Razor-boost SUSY search (PhD thesis, world's best limits in Run 2 for a period of time)](memory/project/project-susy-razor.md) — Boosted-object Supersymmetry search on 2016 LHC data using razor variables - the analysis behind my PhD thesis, coded, plotted, and statistically analysed in the BoostAnalyzer17 framework.
 - [Single-lepton SUSY search (world-best limits in LHC Run 1)](memory/project/project-susy-single-lepton.md) — Single-lepton Supersymmetry search on 2012 LHC data that set world-best exclusion limits at publication; my personal contribution was measuring the lepton efficiencies.
+- [AgentBosun — tiered agentic development platform](memory/project/project-tiered-agentic-development-platform-design-phase.md) — Multi-tier agentic system for building software: orchestrator, planner, workers, and memory curator with cost-matched model routing, HITL dashboard + mobile approvals.
 - [VidSavant - local-first video knowledge workspace](memory/project/project-videolearningtool.md) — Personal local-first desktop app that turns video URLs into searchable, summarizable, chat-enabled knowledge items.
 - [WeightLifting - transformer from scratch](memory/project/project-weightlifting.md) — Decoder-only char-level transformer (~10.8M params) built and trained from scratch in PyTorch.
+- [Workspace development graph workflow](memory/project/project-workspace-development-graph-workflow.md) — A dependency-graph workflow for planning, implementing, testing, and human feedback across personal repositories.
 
 ## preference (7)
 
@@ -94,10 +98,11 @@ itself a valid read-only hub store. Manual edits are overwritten on the next exp
 - [Remote-first working style](memory/preference/preference-remote-first.md) — Highly productive working independently from a home office.
 - [Spec-driven, high quality standards](memory/preference/preference-spec-driven-quality.md) — Writes detailed specs and holds high standards even when AI generates the code.
 
-## writing (11)
+## writing (13)
 
 - [CMS Collaboration publications (1,000+)](memory/writing/writing-cms-publications.md) — Co-author on 1,000+ peer-reviewed CMS publications; personal contributions in SUSY and Pixel work.
 - [COVID-19 super-spreaders - a data-driven analysis (2020)](memory/writing/writing-covid-superspreader-analysis.md) — Public analysis arguing super-spreader events break SEIR models; a physicist's data-driven take.
+- [Cutting agent cost](memory/writing/writing-cutting-agent-cost.md) — Cascade-a reduced measured coding-task cost by 70.5% on 13 golden tasks, with the crucial limit that escalation was never exercised.
 - [CMS pixel detector operational experience (JINST 2015)](memory/writing/writing-paper-pixel-operations-2014.md) — Operational and performance results of the CMS pixel detector, presented at PIXEL2014; large fraction of measurements self-made.
 - [CMS pixel detector operations in Run II (JINST 2016)](memory/writing/writing-paper-pixel-run2-operations.md) — Operational, monitoring, and performance results of the CMS pixel detector, presented at PIXEL2016.
 - [CMS Pixel Detector Upgrade TDR (2012)](memory/writing/writing-paper-pixel-upgrade-tdr.md) — Technical Design Report for the Pixel Detector Upgrade; dynamic-inefficiency analysis influenced the new readout chip design.
@@ -106,4 +111,5 @@ itself a valid read-only hub store. Manual edits are overwritten on the next exp
 - [CMS tracker track/vertex reconstruction performance (JINST 2014)](memory/writing/writing-paper-tracker-performance.md) — Description and performance of track and primary-vertex reconstruction with the CMS tracker; contributed pixel hit-efficiency measurements.
 - [PhD thesis - beyond the Standard Model with CMS](memory/writing/writing-phd-thesis.md) — Doctoral thesis (CERN-THESIS-2019-080) on BSM/SUSY searches with the CMS detector.
 - [LinkedIn post - AI should navigate knowledge, not rediscover it](memory/writing/writing-post-ai-knowledge-base.md) — Published post on the agentic knowledge-base approach and context discipline.
+- [Price/performance agent workloads](memory/writing/writing-price-performance-agent-workloads.md) — Measuring agent jobs exposed an unreliable summary judge; pairwise comparisons and deterministic checks give a more careful basis for model choices.
 - [What Legacy Code Taught Me About Learning AI From Scratch](memory/writing/writing-what-legacy-code-taught-me-about-learning-ai-from-scratch.md) — LinkedIn post on what CERN legacy code taught me about durability, and building a transformer from scratch to learn AI fundamentals.
